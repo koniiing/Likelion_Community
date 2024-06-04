@@ -11,6 +11,7 @@ function DetailPostSection() {
   const [post, setPost] = useState(null);
   const [likeCount, setLikeCount] = useState();
   const { postid } = useParams();
+  console.log(postid);
   const [isLike, setIsLike] = useState();
   const [isPendingRequest, setIsPendingRequest] = useState(false);
   useEffect(() => {
